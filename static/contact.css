@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.slogan {
+    font-style: italic;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.social-icon i {
+    margin-right: 10px;
+}
+
+.social-icon:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.fab {
+    font-size: 1.2em;
+}
+
+.fas {
+    font-size: 1.2em;
+}
